@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  background-color: lightgray
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+body {
+}
+
+* { 
+    font-family: Times, serif;
+    background-color: #00000000;
+    color: black;
+}
+#alignment {
+  text-align: center;
+}
+#song_album_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+#songs, #artists {
+  flex: 1;
+}
+.flex-container {
+  display: flex;
+}
+
+.box {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 10px;
+}
