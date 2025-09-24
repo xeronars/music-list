@@ -21,7 +21,7 @@ body {
   gap: 20px;
 }
 
-#songs, #artists {
+#songs, #artists, #albums {
   flex: 1;
 }
 .flex-container {
@@ -44,3 +44,14 @@ body {
     width: 16%;
     margin: auto;
 }
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}   
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
