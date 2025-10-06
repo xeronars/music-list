@@ -6,24 +6,31 @@ header {
   width: 60%;
   margin-left: auto;
 }
+
 h3 {
   font-size: 30px;
   text-align: center;
 }
+
 * { 
-    color: black;
+  color: black;
+  font-family: Arial, sans-serif;
 }
+
 #alignment {
   text-align: center;
 }
+
 #song_album_wrapper {
   display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 #songs, #artists, #albums {
   flex: 1;
 }
+
 .flex-container {
   display: flex;
 }
@@ -32,26 +39,91 @@ h3 {
   background-color: lightgray;
   padding: 20px;
   margin: 10px;
+  border-radius: 10px;
 }
+
 #footer {
   text-align: center;
   font-size: 15px;
   color: gray;
   margin-top: 20px;
-  font-family: sans-serif;
-    background-color: lightgray;
-    padding: 10px;
-    width: 16%;
-    margin: auto;
+  background-color: lightgray;
+  padding: 10px;
+  width: 16%;
+  margin: auto;
 }
+
 .red {
   color: red;
 }
+
 .blue {
   color: blue;
-}   
+}
+
 img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  #song_album_wrapper {
+    flex-direction: column;  
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  #footer {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .box {
+    padding: 15px;
+  }
+
+  #footer {
+    font-size: 12px;
+    width: 100%;
+    padding: 8px;
+  }
+}
