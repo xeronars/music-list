@@ -31,10 +31,6 @@ h3 {
   flex: 1;
 }
 
-.flex-container {
-  display: flex;
-}
-
 .box {
   background-color: lightgray;
   padding: 20px;
@@ -78,11 +74,6 @@ img {
 
   h3 {
     font-size: 22px;
-  }
-
-  #song_album_wrapper {
-    flex-direction: column;  
-    align-items: center;
   }
 
   .box {
