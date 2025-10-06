@@ -1,24 +1,41 @@
-<html>  
-    <head> 
-        <title>Albums</title>
-        <link rel="stylesheet" href="style.css">
-    </head> 
-    <body>
-        <header>
-            <h1>Albums that contained these songs</h1>
-        </header>
-        <div class="container" id="song_album_wrapper">
-            <section class="box" id="albums">
-                <h4 class = "red id" id = "alignment">COLOR OUTSIDE THE LINES | CORTIS</h4>
-                <img src="images/1900x1900-000000-80-0-0.jpg" alt="COLOR OUTSIDE THE LINES Album Cover" width="300"> 
-            </section>
-            <section class="box" id="albums">
-                <h4 class = "blue" id = "alignment">You Never Walk Alone | BTS</h4>
-                <img src="images/You_Never_Walk_Alone_Left_Version_logo.webp" alt="You Never Walk Alone Album Cover" width="300">
-            </section>
-        </div>
-        <nav id = "footer">
-            <a href="index.html">Back to Home</a>
-        </nav>
-    </body>
-</html> 
+<!DOCTYPE html>
+<html lang="en">  
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Albums that feature songs from my music playlist.">
+    <title>Albums</title>
+    <link rel="stylesheet" href="style.css">
+  </head> 
+  <body>
+    <header>
+      <h1>Albums That Contain My Favorite Songs</h1>
+      <p>Explore the albums that include the songs from my personal playlist.</p>
+    </header>
+    <main>
+      <section class="container" id="song_album_wrapper">
+        <!-- Album 1 -->
+        <section class="box" aria-labelledby="album1-title">
+          <h2 class="red" id="album1-title" style="text-align:center;">COLOR OUTSIDE THE LINES — CORTIS</h2>
+          <img 
+            src="images/1900x1900-000000-80-0-0.jpg" 
+            alt="Album cover art for 'COLOR OUTSIDE THE LINES' by CORTIS featuring bold abstract shapes" 
+            width="300">
+        </section>
+        <section class="box" aria-labelledby="album2-title">
+          <h2 class="blue" id="album2-title" style="text-align:center;">You Never Walk Alone — BTS</h2>
+          <img 
+            src="images/You_Never_Walk_Alone_Left_Version_logo.webp" 
+            alt="Album cover for 'You Never Walk Alone' by BTS showing pastel artwork with bench scenery" 
+            width="300">
+        </section>
+      </section>
+      <nav aria-label="Page navigation" id="footer">
+        <a href="index.html">Return to my Music Playlist</a>
+      </nav>
+    </main>
+    <footer>
+      <p>&copy; 2025 My Music Playlist | Designed with accessibility and responsiveness in mind.</p>
+    </footer>
+  </body>
+</html>
